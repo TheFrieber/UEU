@@ -1,0 +1,22 @@
+name: UnlimitedElytra
+version: 3.2
+api-version: 1.13
+description: Infinite Elytra, yay!
+author: TheFrieber_
+main: plugin.Main
+
+commands:
+     unlimitedelytra:
+         usage: /unlimitedelytra
+         description: reload the "UnlimitedElytra"'s config
+
+permissions:
+     unlimitedelytra.cmd.reset:
+         description: ability to use '/unlimitedelytra reset'
+     unlimitedelytra.cmd.reload:
+         description: ability to use '/unlimitedelytra reload'
+     unlimitedelytra.cmd.main:
+         description: ability to use '/unlimitedelytra'
+     unlimitedelytra.boost:
+         description: access to fly forever and TheFrieber's options are included
+         default: true
